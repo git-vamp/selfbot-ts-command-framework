@@ -5,7 +5,7 @@ import {CommandHandler} from './CommandHandler'
 const client = new Client({checkUpdate: false})
 const Handler = new CommandHandler(client).setupCommands()
 
-const TOKEN = "NjAwOTcyOTAzODEwNTk2ODc1.Gq-DoO._NFfcWsox0oFGhWPc3Lg3DldrVKPlXCtgrdb7E"
+const TOKEN = ""
 
 
 Handler.on('ready', async () => {
